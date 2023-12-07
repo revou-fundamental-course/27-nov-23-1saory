@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Matematik (Segitiga)</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <h1>Kalkulator Matematik (Segitiga)</h1>
+
+  <!-- Tambahkan gambar di sini -->
+  <img src="segi3.png" alt="Gambar Segitiga">
+
+  <form id="triangleForm">
+    <h2>Hitung Luas Segitiga</h2>
+    <label for="alas">Alas</label>
+    <input type="number" id="alas" name="alas">
+    <label for="tinggi">Tinggi</label>
+    <input type="number" id="tinggi" name="tinggi">
+
+    <div class="luas-section">
+    <h2>Hitung Keliling Segitiga</h2>
+      <label for="sisiA">Sisi A</label>
+      <input type="number" id="sisiA" name="sisiA">
+      <label for="sisiB">Sisi B</label>
+      <input type="number" id="sisiB" name="sisiB">
+    </div>
+
+    <div class="keliling-section">
+      <label for="sisiC">Sisi C</label>
+      <input type="number" id="sisiC" name="sisiC">
+    </div>
+
+    <button type="submit">Hitung</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
